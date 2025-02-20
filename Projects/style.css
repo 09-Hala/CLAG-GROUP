@@ -1,0 +1,113 @@
+.main_body{
+    background-image: url('./downloaded-image-2.avif') ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    align-items: left;
+    text-align: left;
+    padding: 50px;   
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+    position: relative;
+    }
+body {
+    padding-top: 60px;
+}
+    
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px; 
+    font-weight: 900; 
+    text-transform: uppercase; 
+    color: white; 
+    line-height: 1.2; 
+    letter-spacing: 2px; 
+    text-align: justify;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+}
+.title_description{
+    display: inline; 
+    white-space: nowrap;
+    font-size: 20px;
+}
+.button {
+    display: inline-block;
+    margin: 0px;
+    padding: 15px 30px;
+    background-color: #130c38;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    border:none;
+    text-decoration: none;
+    outline: none;
+    box-sizing:content-box;
+    transition: background 0.3s ease;
+
+}
+button{
+    background: none;
+    border: 5px;
+    border-style: groove;
+    border-color: #241b52;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background: #130c38; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0); 
+    padding: 25px 30px;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+.nav_title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-right: 30px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff5733; 
+}
